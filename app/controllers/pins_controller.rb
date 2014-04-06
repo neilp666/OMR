@@ -22,6 +22,7 @@ class PinsController < ApplicationController
   
   def create
     @pin = Pin.new(pin_params)
+  end
 
 
       if @pin.save
@@ -44,7 +45,6 @@ class PinsController < ApplicationController
   def destroy
     @pin.destroy
       redirect_to pins_url
-    end
   end
 
   private
