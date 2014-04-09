@@ -1,8 +1,0 @@
-== README
-
-OMR rails project
-
-* Ruby version 2.0
-
-* Rails 4.0.4
-
